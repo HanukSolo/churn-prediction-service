@@ -204,6 +204,6 @@ st.markdown("""
 - [FastAPI Docs](http://localhost:8000/docs)
 
 ** Контакты:**
-- Email: your.email@example.com
-- LinkedIn: linkedin.com/in/your-profile
+- Email: a-girin@bk.ru
+- Github: https://github.com/HanukSolo
 """)
