@@ -1,0 +1,14 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
+      - src/data_loader.py
+      - src/preprocessing.py
+      - src/model.py
+      - train.py
+    outs:
+      - data/processed/baseline_model.pkl
+    metrics:
+      - data/processed/metrics.json:
+          cache: false
